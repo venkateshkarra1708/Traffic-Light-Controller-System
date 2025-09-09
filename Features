@@ -1,0 +1,9 @@
+Controls traffic for 4 directions with 8 possible states.
+
+Programmable timing for red, green, and yellow signals.
+
+Yellow light automatically appears during every transition.
+
+FSM-based design for predictable and reliable operation.
+
+Suitable for simulation and FPGA testing.
