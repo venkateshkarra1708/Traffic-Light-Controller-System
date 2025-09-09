@@ -1,2 +1,4 @@
 # Traffic-Light-Controller-System
 This project implements a Traffic Light Controller System using Verilog HDL for a four-way intersection. The system manages traffic in 4 directions (North, South, East, West) with 8 possible light combinations to ensure safe and efficient vehicle movement.
+The controller uses a finite state machine (FSM) to sequence the traffic lights. Each direction is assigned programmable green and red light durations, allowing flexibility in traffic flow management. During every transition from green to red or red to green, a yellow signal is activated for a specified time interval to provide a warning phase for vehicles.
+The design ensures that no conflicting directions are active at the same time and can be easily simulated on Verilog simulation tools or synthesized for FPGA implementation.
